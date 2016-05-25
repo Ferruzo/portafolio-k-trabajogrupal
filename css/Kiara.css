@@ -1,0 +1,53 @@
+.iconos {
+    color: #F05F40;
+    font-size: 4rem;
+}
+
+.margin-iconos {
+    margin: 40px 0;
+}
+
+#pics img {
+    width: 100%;
+}
+
+.col-lg-4 {
+    margin: 0;
+    padding: 0;
+}
+
+#github {
+    background-color: #222222;
+}
+
+#github p {
+    font-size: 1.8rem;
+}
+
+.ver-mi-github-btn {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.contactame-main-text {
+    width: 55%;
+    margin: 25px auto;
+}
+
+.correo {
+    color: #F05F40;
+}
+
+.contacto-icons {
+    font-size: 3rem;
+}
+
+.row-icons {
+display: inline-block;
+float: none;
+text-align: center;
+margin-right: -4px;
+}

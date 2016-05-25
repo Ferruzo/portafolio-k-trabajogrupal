@@ -1,0 +1,216 @@
+/* Inserta tu codigo CSS aqui */
+/*HERO-IMG*/
+.hero-img{
+background-image: url(../img/header.jpg);
+background-size: cover;
+height: 700px;
+background-position: center;
+background-attachment: fixed;
+}
+/*NAV*/
+.navbar-default {
+ background-color: transparent;
+ border-bottom: 0.1rem solid rgba(255,255,255,0.5);
+}
+.navbar-default .navbar-nav > li > a {
+ color: white;
+ text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-brand{
+color: white;
+font-weight: bold;
+}
+
+.navbar-right{
+	margin: 0px;
+}
+.navbar-default .navbar-nav>.active>a {
+color:#F44336;
+}
+/*texto-hero-img*/
+.pd h1{
+	color: white;
+	font-weight: bold;
+	padding:17rem 8rem 1rem 8rem;
+	
+}
+.pd p{
+	color: white;
+	padding:2rem 24rem 4rem 24rem;
+	
+}
+/*section sobre mi*/
+#white{
+	background-color: white;
+}
+.text-white p{
+	padding:2rem 23rem 4rem 23rem;
+}
+#conoce_mas{
+	color: white;
+	font-weight: bold;
+	font-size: 1.1rem;
+	
+}
+#conoce_mas:hover {
+color: black;
+background-color: white;
+  
+}
+
+/*EFECTOS*/
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+/* Shrink */
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+/*servicios*/
+.iconos {
+    color: #F05F40;
+    font-size: 4rem;
+}
+
+.margin-iconos {
+    margin: 40px 0;
+}
+
+#pics img {
+    width: 100%;
+}
+
+.col-lg-4 {
+    margin: 0;
+    padding: 0;
+}
+
+#github {
+    background-color: #222222;
+}
+
+#github p {
+    font-size: 1.8rem;
+}
+
+.ver-mi-github-btn {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.contactame-main-text {
+    width: 55%;
+    margin: 25px auto;
+}
+
+.correo {
+    color: #F05F40;
+}
+
+.contacto-icons {
+    font-size: 3rem;
+}
+
+.row-icons {
+display: inline-block;
+float: none;
+text-align: center;
+margin-right: -4px;
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 220px) and (max-width: 780px)  {
+
+.navbar-default {
+ background-color: white;
+ border-bottom: 0.1rem solid rgba(255,255,255,0.5);
+ }
+ .navbar-default .navbar-brand{
+color: #DB4A2B;
+font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a {
+ color: #2c202c;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #DB4A2B;
+}
+.pd h1{
+	padding:10rem 3rem 4rem 3rem;
+}
+.pd p{
+	padding: 2rem;
+}
+.text-white p{
+	padding: 3rem;
+}
+/*SECTION PICS*/
+.camara {
+    background: linear-gradient( rgba(240, 95, 64, 0.85), rgba(240, 95, 64, 0.85) ), url(../img/portfolio/3.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    padding: 30% 20% 20% 20%;
+}
+
+.martillos {
+    background: linear-gradient( rgba(240, 95, 64, 0.85), rgba(240, 95, 64, 0.85) ), url(../img/portfolio/6.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    padding: 30% 20% 20% 20%;
+}
+
+.categoria {
+    font-size: 1.1rem;
+}
+
+.col-lg-4 .text_img {
+    margin: -60px auto;
+}
+
+}
